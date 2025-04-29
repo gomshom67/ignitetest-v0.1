@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[WIP]</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/breakingbad.jpg"></a>
+            <div class="navlinks" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="example.html">Brisbane</a></li>
+                    <li><a href="example.html">Sydney</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>TEXTTEXTTEXT</h1>
+    </section>
+
+<!-------------------blogcontent------------------------------>
+
+<section class="blogcontent">
+    <div class="row">
+        <div class="blogleft">
+            <img src="images/breakingbad.jpg">
+            <h2>TEXTTEXTTEXT</h2>
+            <p>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+            </p>
+            <br>
+            <p>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+            </p>
+            <br>
+            <p>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+            </p>
+
+            <div class="commentbox">
+                <h3>Leave a Comment</h3>
+                <form class="commentform">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button class="hero-btn red-btn" type="submit">POST</button>
+                </form>
+            </div>
+        </div>
+        <div class="blogright">
+            <h3>TEXTTEXTTEXT</h3>
+            <div>
+                <span>TEXTTEXTTEXT</span>
+                <span>69</span>
+            </div>
+            <div>
+                <span>TEXTTEXTTEXT</span>
+                <span>69</span>
+            </div>
+            <div>
+                <span>TEXTTEXTTEXT</span>
+                <span>69</span>
+            </div>
+            <div>
+                <span>TEXTTEXTTEXT</span>
+                <span>69</span>
+            </div>
+            <div>
+                <span>TEXTTEXTTEXT</span>
+                <span>69</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--------------------footer------------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>
+        TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+        TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+        TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+        TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT<br>
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>
+        Made with <i class="fa fa-heart-o"></i> by Johanse Pius Tam
+    </p>
+</section>
+
+
+<!-------------JAVASCRIPT FOR TOGGLE MENU----------->
+
+
+    <script>
+        var navLinks=document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0"
+
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+
+        }
+    </script>
+</body>
+</html>
