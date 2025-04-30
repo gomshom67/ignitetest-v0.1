@@ -7,7 +7,7 @@
 .header{
     min-height:100vh;
     width:100%;
-    background: linear-gradient(#04091eb3,#04091eb3),url("images/breakingbad.jpg");
+    background: linear-gradient(#04091eb3,#04091eb3),url("images/hqdefault.jpg");
     background-position: center;
     background-size:cover;
     position:relative;
@@ -310,7 +310,7 @@ h3{
 .content5{
     margin:100px auto;
     width:80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/breakingbad.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/DSC06036.jpg);
     background-position: center;
     background-size: cover;
     border-radius:10px;
@@ -355,7 +355,7 @@ h3{
 .sub-header{
     height:50vh;
     width:100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/breakingbad.jpg);
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/b1.jpg);
     background-position:center;
     background-size:cover;
     text-align:center;
