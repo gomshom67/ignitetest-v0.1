@@ -418,6 +418,7 @@ h3{
 }
 .blogright{
     flex-basis:32%;
+    margin-left: 5%;
 }
 .blogright h3{
     background:#f44336;
